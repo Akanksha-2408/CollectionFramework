@@ -19,15 +19,10 @@ public class ListI {
         System.out.println(list);
 
         System.out.println("\n-----list.toArray()-----");
-        list.toArray(new String[0]);  //Converts list to String
+        list.toArray(new String[0]);
         System.out.println(list);
 
         System.out.println("\nlist hashcode generated = " + list.hashCode());
-
-        //Reverse List
-//        System.out.println("-----list.reversed()-----");
-//        List<String> revlist = list.reversed();  //see this
-//        System.out.println("Reversed list = " + revlist);
 
         //list.iterator()
         Iterator<String> iterator = list.iterator();
@@ -62,6 +57,7 @@ public class ListI {
 
         System.out.println("\n-----containsAll() method-----");
         System.out.println(list.containsAll(list)); //returns boolean
+
 //        System.out.println("\n-----clear() method-----");
 //        list.clear(); //Empties the list
 //        System.out.println("list = " + list);
